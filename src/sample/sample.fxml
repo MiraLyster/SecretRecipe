@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<AnchorPane prefHeight="601.88140625" prefWidth="663.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="sample.Controller">
+  <children>
+    <Button fx:id="btn" layoutX="438.0" layoutY="97.0" mnemonicParsing="false" prefHeight="37.94140624999997" text="OK" />
+    <Label layoutX="112.0" layoutY="103.0" text="Password:" />
+    <Label text="Username:" visible="false" AnchorPane.leftAnchor="118.0" AnchorPane.topAnchor="144.0" />
+    <TextField id="Username" fx:id="username" layoutX="218.0" layoutY="144.0" prefWidth="200.0" visible="false" />
+    <PasswordField fx:id="password" layoutX="218.0" layoutY="101.0" prefWidth="200.0" />
+    <TextArea fx:id="hiddenText" layoutX="7.0" layoutY="145.0" prefHeight="443.0" prefWidth="649.0" text="Congratz! You now have access to the hidden recipe! And here it is...&#10;&#10;Step (1) ....&#10;Step (2) .....&#10;" visible="false" wrapText="true" />
+  </children>
+</AnchorPane>
